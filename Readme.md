@@ -1,9 +1,10 @@
 Project White Horse.
 ====================
 
-The WHITE HORSE is a tool designed to encrypt small files like text files, images, audio files etc. using AES(Advanced Encryption Standard),a symmetric block algorithm. Further it uses Secure Hash Algorithms{SHA256} and bcrypt to generate the hash[digest]
+The WHITE HORSE is a tool designed to encrypt small files like text files, images, audio files etc. using AES(Advanced Encryption Standard),a symmetric block algorithm. Further it uses Secure Hash Algorithms{SHA256} and bcrypt to generate the hash[digest] using password, which is used to encrypt the data.
 
 #OneWayEncrytion(SHA256 and bcrypt)
+
 #Caution : If key is Lost data will be Lost.
 
 It will encrypt the data by taking path and password as input.
