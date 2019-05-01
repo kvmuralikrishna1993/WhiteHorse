@@ -11,7 +11,7 @@ The **WHITE HORSE** is a tool designed to encrypt small files like text files, i
 
 --------------------------------------------------------------------------------------
 
-###Furthermore about **_WhiteHorse_**:###
+###Furthermore about **_WhiteHorse_**:
 
 ==> The whole code is Written in **_Python3_**.
 
