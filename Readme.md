@@ -11,7 +11,7 @@ The **WHITE HORSE** is a tool designed to encrypt small files like text files, i
 
 --------------------------------------------------------------------------------------
 
-### Furthermore about **_WhiteHorse_**:
+##### Furthermore about **_WhiteHorse_**:
 
 ==> The whole code is Written in **_Python3_**.
 
@@ -23,18 +23,18 @@ The **WHITE HORSE** is a tool designed to encrypt small files like text files, i
 
 ----------------------------------------------------------------------------------------
 
-To run the tool please install the following packages using  **_pip_**:
+##### To run the tool please install the following packages using  **_pip_**:
 **_[enter the password for permissions]_**
 
 
-**_For Hashing_**
+##### **_For Hashing_**
 $sudo pip install crypto
 
-**_For AES_**
+##### **_For AES_**
 $sudo pip install pycrypto
 
-**_For salting purpose_**
+##### **_For salting purpose_**
 $sudo pip install bcrypt
 
-**_For GUI_**
+##### **_For GUI_**
 $sudo pip install tkinter
