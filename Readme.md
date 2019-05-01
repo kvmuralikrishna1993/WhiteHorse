@@ -5,9 +5,9 @@ The **WHITE HORSE** is a tool designed to encrypt small files like text files, i
 
 --------------------------------------------------------------------------------------
 
-#OneWayEncrytion(SHA256 and bcrypt)
+**#OneWayEncrytion(SHA256 and bcrypt)**
 
-#Caution : If key is Lost, data will be Lost.
+**#Caution : If key is Lost, data will be Lost.**
 
 --------------------------------------------------------------------------------------
 
@@ -17,7 +17,7 @@ The **WHITE HORSE** is a tool designed to encrypt small files like text files, i
 
 ==> **_White Horse_** will encrypt the data by taking **_path of the file_** and **_password_** as input.
 
-==> The detail explanation of each line of code is written in comments above the functions, as well as inside the functions.
+==> The detail explanation of each line of code is written in comments **_above the functions_**, as well as **_inside the functions_**.
 
 ==> Check the **_Help functions_** for more detials.
 
