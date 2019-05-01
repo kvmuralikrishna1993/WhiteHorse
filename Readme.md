@@ -6,6 +6,7 @@ The WHITE HORSE is a tool designed to encrypt small files like text files, image
 #OneWayEncrytion(SHA256 and bcrypt)
 
 #Caution : If key is Lost, data will be Lost.
+---------
 
 White Horse will encrypt the data by taking path of the file and password as input.
 
@@ -13,22 +14,31 @@ The detail explanation of each line of code is written in comments above the fun
 
 ===============================================================
 
-To run the tool please install the following packages using sudo pip:
+To run the tool please install the following packages using *pip*:
 
-[enter the password for permissions]
+*[enter the password for permissions]*
+-------------------------------------
 
-$sudo pip install crypto (for Hashing)
+*For Hashing*
+-------------
+--> $sudo pip install crypto
 
-$sudo pip install pycrypto (for AES)
+*For AES*
+---------
+--> $sudo pip install pycrypto
 
-$sudo pip install bcrypt (for salting purpose)
+*For salting purpose*
+---------------------
+--> $sudo pip install bcrypt
 
-$sudo pip install tkinter (for GUI)
+*For GUI*
+---------
+--> $sudo pip install tkinter
 
 ===============================================================
 
-Check the Help functions for more detials.
+Check the *Help functions* for more detials.
 
-The whole code is Written based on Python3.
+The whole code is Written in Python3.
 
 Thankyou.
