@@ -3,11 +3,11 @@ Project White Horse.
 
 The **WHITE HORSE** is a tool designed to encrypt small files like text files, images, audio files etc. using **AES(Advanced Encryption Standard)**,a symmetric block algorithm. Further, it uses **Secure Hash Algorithms{SHA256}** and **bcrypt**, to generate the hash[digest] using password, which is used to encrypt the data.
 
-#OneWayEncrytion(SHA256 and bcrypt)
------------------------------------
 
+#OneWayEncrytion(SHA256 and bcrypt)
 #Caution : If key is Lost, data will be Lost.
----------------------------------------------
+
+
 
 Furthermore about **_WhiteHorse_**
 ----------------------------------
@@ -19,7 +19,6 @@ Furthermore about **_WhiteHorse_**
 ==> The detail explanation of each line of code is written in comments above the functions, as well as inside the functions.
 
 ==> Check the **_Help functions_** for more detials.
-
 
 
 
@@ -47,6 +46,5 @@ $sudo pip install tkinter
 
 
 
-
-
 **_Thankyou._**
+---------------
