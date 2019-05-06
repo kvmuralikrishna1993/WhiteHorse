@@ -31,7 +31,8 @@ The **WHITE HORSE** is a tool designed to encrypt small files like text files, i
 $sudo pip install crypto
 
 ## **_For AES_**
-$sudo pip install pycrypto
+$pip uninstall pycrypto
+$pip easy_install pycrypto
 
 ## **_For salting purpose_**
 $sudo pip install bcrypt
