@@ -33,7 +33,7 @@ $sudo pip install crypto
 ## **_For AES_**
 $pip uninstall pycrypto
 
-$pip easy_install pycrypto
+$easy_install pycrypto
 
 ## **_For salting purpose_**
 $sudo pip install bcrypt
