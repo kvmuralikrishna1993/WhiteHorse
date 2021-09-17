@@ -1,7 +1,7 @@
 Project White Horse.
 ====================
 
-The **WHITE HORSE** is a tool designed to encrypt small files like text files, images, audio files etc. using **AES(Advanced Encryption Standard)**,a symmetric block algorithm. Further, it uses **Secure Hash Algorithms{SHA256}** and **bcrypt**, to generate the hash[digest] using password, which is used to encrypt the data.
+The **White Horse** is a tool designed to encrypt small files like text files, images, audio files etc. using **AES (Advanced Encryption Standard)**, a symmetric block algorithm. Further, it uses **Secure Hash Algorithms{SHA256}** and **bcrypt**, to generate the hash[digest] using password, which is used to encrypt the data.
 
 --------------------------------------------------------------------------------------
 
@@ -11,32 +11,30 @@ The **WHITE HORSE** is a tool designed to encrypt small files like text files, i
 
 --------------------------------------------------------------------------------------
 
-## Furthermore about **_WhiteHorse_**:
+## More about **_WhiteHorse_**:
 
-==> The whole code is Written in **_Python3_**.
+==> Written in **_Python3_**.
 
 ==> **_White Horse_** will encrypt the data by taking **_path of the file_** and **_password_** as input.
 
-==> The detail explanation of each line of code is written in comments **_above the functions_**, as well as **_inside the functions_**.
+==> The detail explanation of each line of code is written in comments.
 
-==> Check the **_Help functions_** for more detials.
+==> Check the **_helper functions_** for more detials.
 
 ----------------------------------------------------------------------------------------
 
+## **_for PIP_** [Ignore if pip exists]
+
+$apt install python3-pip
+
 ## To run the tool please install the following packages using  **_pip_**:
-**_[enter the password for permissions]_**
 
+**_[enter the password for permissionsto install dependency modules]_**
 
-## **_For Hashing_**
-$sudo pip install crypto
-
-## **_For AES_**
+## **_for AES_**
 $pip uninstall pycrypto
+$pip install -U PyCryptodome
 
-$easy_install pycrypto
-
-## **_For salting purpose_**
+## **_for salting purpose_**
 $sudo pip install bcrypt
 
-## **_For GUI_**
-$sudo pip install tkinter
