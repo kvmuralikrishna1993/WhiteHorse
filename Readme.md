@@ -27,14 +27,17 @@ The **White Horse** is a tool designed to encrypt small files like text files, i
 
 $apt install python3-pip
 
-## To run the tool please install the following packages using  **_pip_**:
+## To run the tool please install the following packages using  **_pip_**: or run installmod.py
 
-**_[enter the password for permissionsto install dependency modules]_**
+**_[enter the password for permissions to install dependency modules]_**
 
 ## **_for AES_**
+
 $pip uninstall pycrypto
+
 $pip install -U PyCryptodome
 
 ## **_for salting purpose_**
+
 $sudo pip install bcrypt
 
